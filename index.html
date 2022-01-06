@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hydrapp</title>
+    <meta name="hydrapp" content="hydrapp for WTF:Co ten frontend" />
+
+    <!-- Title -->
+    <meta property="og:title" content="Task" />
+    <!-- OPTIONAL description. 2-4 sentences. -->
+    <meta property="og:description" content="" />
+    <!-- full url with http(s) ie.  -->
+    <meta property="og:url" content="https://github.com/kakuliniec/Task" />
+    <!-- full url to the image with http(s) ie. https://kakuliniec.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
+    <!-- <meta property="og:image" content="https://github.com/kakuliniec/hydrapp/src/assets/img/icon-192x192.png" /> -->
+
+    <link rel="manifest" href="manifest.json" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link
+      rel="apple-touch-icon"
+      sizes="192x192"
+      href=""
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href=""
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="heading">HydrAPP</h1>
+      <div class="counter">
+        <span class="counter__value counter__value--js">8</span>
+      </div>
+
+      
+      <form class="form" method="post">
+        <p>
+            <label for="name">Github user<br>
+                <input required placeholder="please enter user name" type="text" name="name" id="name">
+            </label>
+        </p>
+        <input type="submit" value="send the form">
+    </form>
+
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
