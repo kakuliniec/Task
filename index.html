@@ -30,25 +30,22 @@
       href=""
     />
 
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="./src/scss/main.scss" />
   </head>
   <body>
     <main class="main">
-      <h1 class="heading">HydrAPP</h1>
+      <h1 class="heading">Find user</h1>
       <div class="counter">
-        <span class="counter__value counter__value--js">8</span>
-      </div>
-
-      
+    
       <form class="form" method="post">
         <p>
-            <label for="name">Github user<br>
-                <input required placeholder="please enter user name" type="text" name="name" id="name">
+            <label for="user">Github user<br>
+                <input class="user__name" required placeholder="please enter user name" type="text" name="name" id="name">
             </label>
         </p>
-        <input type="submit" value="send the form">
+        <input class="submit" type="submit" value="send the form">
     </form>
-
+</div>
     </main>
 
     <script src="js/main.js"></script>
