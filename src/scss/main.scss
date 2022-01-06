@@ -1,3 +1,68 @@
 @import "./normalize";
 @import "./variables";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+html {
+    box-sizing: border-box;
+    background: #FF5A00;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    color: $white;
+    background: #FF5A00;
+    font-family: Roboto;
+    font-weight: 500;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    }
+  
+    .user {
+
+
+
+    }
+
+    .submit {
+        background: #ffffff;
+        border-radius: 4px;
+        font-size: 18px;
+        padding: 12px;
+        border: none;
+        color: black;
+        min-width: 216px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 48px 0 26px;
+      }
+  
+  .counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 112px;
+  padding: 50px
+  &__value {
+    display: block;
+    padding-top: 64px;
+  }
+  }
+  
+  .heading {
+    font-size: 55px;
+    margin: 0 0 64px 0;
+    padding: 0;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
