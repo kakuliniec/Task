@@ -1,0 +1,22 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "Created during recruitment process I am taking part at.",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "task"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.1.0",
+    "parcel": "^2.1.0"
+  },
+  "dependencies": {
+    "@octokit/core": "^3.5.1"
+  }
+}

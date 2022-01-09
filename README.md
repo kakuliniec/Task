@@ -1,2 +1,2 @@
 # Task
-Created during one process I am taking part at.
+Created during recruitment process I am taking part at.

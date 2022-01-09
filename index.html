@@ -1,53 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Hydrapp</title>
-    <meta name="hydrapp" content="hydrapp for WTF:Co ten frontend" />
 
-    <!-- Title -->
-    <meta property="og:title" content="Task" />
-    <!-- OPTIONAL description. 2-4 sentences. -->
-    <meta property="og:description" content="" />
-    <!-- full url with http(s) ie.  -->
-    <meta property="og:url" content="https://github.com/kakuliniec/Task" />
-    <!-- full url to the image with http(s) ie. https://kakuliniec.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-    <!-- <meta property="og:image" content="https://github.com/kakuliniec/hydrapp/src/assets/img/icon-192x192.png" /> -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Task</title>
+  <meta name="Task" content="task done during recruitment process" />
 
-    <link rel="manifest" href="manifest.json" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link
-      rel="apple-touch-icon"
-      sizes="192x192"
-      href=""
-    />
+  <!-- Title -->
+  <meta property="og:title" content="Task" />
+  <!-- OPTIONAL description. 2-4 sentences. -->
+  <meta property="og:description" content="" />
+  <!-- full url with http(s) ie.  -->
+  <meta property="og:url" content="https://github.com/kakuliniec/Task" />
+  <!-- full url to the image with http(s) ie. https://kakuliniec.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
+  <!-- <meta property="og:image" content="https://github.com/kakuliniec/hydrapp/src/assets/img/icon-192x192.png" /> -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      href=""
-    />
+  <link rel="stylesheet" href="./src/scss/main.scss" />
+</head>
 
-    <link rel="stylesheet" href="./src/scss/main.scss" />
-  </head>
-  <body>
-    <main class="main">
-      <h1 class="heading">Find user</h1>
-      <div class="counter">
-    
-      <form class="form" method="post">
-        <p>
-            <label for="user">Github user<br>
-                <input class="user__name" required placeholder="please enter user name" type="text" name="name" id="name">
-            </label>
-        </p>
-        <input class="submit" type="submit" value="send the form">
-    </form>
-</div>
-    </main>
+<body>
+  <main class="main">
+    <h1 class="heading">FIND USER</h1>
+    <div class="counter">
+      <form class="myForm" method="post" id="myForm">
+        <label for="user">Github user<br>
+          <input class="username" required placeholder="please enter username" type="text" name="username"
+            id="username">
+        </label>
+        <input class="submit" type="submit" value="Find repo">
+        <ul class="repo-list repo-list--js">
+        </ul>
+      </form>
+    </div>
+  </main>
 
-    <script src="js/main.js"></script>
-  </body>
+  <script src="./src/js/main.js"></script>
+</body>
+
 </html>
