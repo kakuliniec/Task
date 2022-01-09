@@ -31,6 +31,6 @@ const fetchFunction = async (e) => {
       }
     })
     .catch(err => {
-      console.log(err);
+      list.innerHTML = "There is no user with this username";
     })
 }
