@@ -57,6 +57,14 @@ body {
   align-items: center;
 }
 
+.myLabel {
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 24px;
+}
+
 .repo-list {
   color: #ffffff;
   font-size: 18px;
@@ -86,9 +94,7 @@ body {
   margin: 0 auto;
 }
 
-.user {
-
-  &name {
+.username {
     background: #ffffff;
     font-size: 18px;
     border: none;
@@ -99,4 +105,4 @@ body {
     margin: 20px auto;
     width: 100%;
   }
-}
+
