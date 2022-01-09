@@ -20,5 +20,5 @@ Click above or:
 
 **E n j o y !** 😉 
 
-![Figma](assets/img/cover.PNG)
+![My browser](src/assets/img/cover.PNG)
 
