@@ -1,0 +1,17 @@
+16
+26C:\dev\Task\src\assets\img132859440533133371 1
+21C:\dev\Task\style.css132859563790794939 0
+24C:\dev\Task\package.json132859637301786999 0
+22C:\dev\Task\.gitignore132862321052284020 0
+22C:\dev\Task\src\assets132862322819583136 1
+22C:\dev\Task\index.html132862317021637099 0
+15C:\dev\Task\src132862322819681558 1
+23C:\dev\Task\manifest.js132859439765447940 0
+18C:\dev\Task\src\js132862322819882062 1
+21C:\dev\Task\README.md132859436309934348 0
+20C:\dev\Task\src\scss132862321052379701 1
+30C:\dev\Task\src\scss\main.scss132862320374418862 0
+36C:\dev\Task\src\scss\_normalize.scss132859448083682129 0
+36C:\dev\Task\src\scss\_variables.scss132859447869236371 0
+26C:\dev\Task\src\js\main.js132862116839189096 0
+27C:\dev\Task\src\assets\icon132859440578901544 1
