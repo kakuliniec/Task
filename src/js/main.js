@@ -1,5 +1,5 @@
 "use strict";
-console.log(`Hello! Give me a chance, let's have a talk:)`);
+console.log(`Hello! Let's have a talk:)`);
 
 document.querySelector('#myForm').addEventListener('submit', (e) => fetchFunction(e))
 
