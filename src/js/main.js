@@ -10,13 +10,15 @@ const fetchFunction = async (e) => {
 const list = document.querySelector('.repo-list--js');
 const user = document.querySelector('#username').value;
 
-fetch(`https://api.github.com/users/${user}/repos?sort=stars`)
-//https://api.github.com/search/repositories?q=user:github+sort:stars`)
+fetch(`https://api.github.com/users/${user}/repos`)
 
 .then(resp => resp.json())
 .then(resp => {
- const repos = resp; 
- for (const repo of repos) {
+  //stargazers_count
+ const repos = resp.sort((a,b) => b.stargazers_count - a.stargazers_count); 
+ console.log(repos);
+  list.innerHTML = "";
+  for (const repo of repos) {
    const {name} = repo;
    console.log(repo);
    list.innerHTML += `
@@ -32,8 +34,3 @@ fetch(`https://api.github.com/users/${user}/repos?sort=stars`)
   console.log(err);
 })
 }
-
-//const { Octokit } = require("@octokit/core");
-//await octokit.request('GET /users/{username}/repos', {
- //   username: 'username'
- // })
