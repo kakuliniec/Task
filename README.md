@@ -13,8 +13,6 @@ Created during recruitment process I am taking part at.
 
 To run:
 
-Click above or:
-
 1. git clone https://github.com/kakuliniec/Task.git
 2. Npm install
 3. Npm start
