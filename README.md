@@ -15,8 +15,9 @@ To run:
 
 Click above or:
 
-1. Npm install
-2. Npm start
+1. git clone https://github.com/kakuliniec/Task.git
+2. Npm install
+3. Npm start
 
 **E n j o y !** 😉 
 
