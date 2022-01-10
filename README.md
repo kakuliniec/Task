@@ -1,7 +1,7 @@
 # Task
 Created during recruitment process I am taking part at.
 
-## The tools which will be used here:
+## The tools which have been used here:
 
 * Figma
 * Flexbox
