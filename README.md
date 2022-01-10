@@ -1,7 +1,7 @@
 # Task
 Created during recruitment process I am taking part at.
 
-## The tools which will be used here:
+## The tools which have been used here:
 
 * Figma
 * Flexbox
@@ -13,10 +13,9 @@ Created during recruitment process I am taking part at.
 
 To run:
 
-Click above or:
-
-1. Npm install
-2. Npm start
+1. git clone https://github.com/kakuliniec/Task.git
+2. Npm install
+3. Npm start
 
 **E n j o y !** 😉 
 
